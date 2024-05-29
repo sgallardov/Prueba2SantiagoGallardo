@@ -1,0 +1,35 @@
+
+
+.weather-container {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+#weather {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.weather-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.weather-day:last-child {
+    margin-bottom: 0;
+}
+
+.weather-day p {
+    margin: 0;
+}
+
+
+
+
